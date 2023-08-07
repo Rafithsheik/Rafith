@@ -1,0 +1,34 @@
+#box3{
+    background-color:antiquewhite;
+    display:block;
+}
+button{
+    background-color:rgb(55, 233, 243);    
+}
+.box1{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: dimgray;
+}
+.box2{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: dimgray;
+    text-align: center;
+}
+body{
+    display: flex;
+    gap: 10px;
+}
+.box{
+    margin-left:25%;
+}p{
+    color: white;
+}.box2 button{
+    margin-top: 27px;
+}#box4{
+    margin-top: 65px;
+    background-color:antiquewhite;
+}
