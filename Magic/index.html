@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <h2 name = "abc">I am Head</h2>
+    <p>I am Para</p>
+    <h1>I am Heading 1</h1>
+    <p>I am para 2</p>
+    <h1>I am Heading 2</h1>
+    <p name = "abc"> I am bold type</p>
+    <input type="button" value="magic" id="b1"><br>
+    <input type="button" value = "miracle" id="b2"><br>
+    <input type = "button" value = "colour" id = "b3">
+</body>
+<script>
+    let b1 = document.getElementById("b1")
+    let b2 = document.getElementById("b2")
+    let p = document.querySelectorAll("p")
+    let r = document.querySelectorAll('[name = "abc"]')
+
+    b1.addEventListener('click',function(){
+        for(let i=0;i<p.length;i++)
+        {
+            
+            p[i].innerHTML += "graph";
+          p[i].style.textAlign = "center";
+          p[i].style.border = "1px solid red"; 
+        }
+    })
+    b2.addEventListener('click',function(){
+     for(let i=0;i<r.length;i++)
+     {
+        r[i].innerHTML = "I am Head";
+        r[i].style.border = "1px solid blue";
+     }
+    })
+    b3.addEventListener("click",function(){
+        document.body.style.backgroundColor = 'blue';
+    })
+</script>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
