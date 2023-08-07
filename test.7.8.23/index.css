@@ -1,0 +1,24 @@
+.one{
+    border: 1px solid black;
+    height: 50px;
+}#size {
+    margin-top: 11px;
+    margin-left: 10px;
+}button{
+    background-color: rgb(64, 99, 236);
+    border-radius: 2px;
+}#color1{
+    background-color:rgba(240, 27, 27, 0.927);
+}#color2{
+    background-color: green;
+}.two{
+    margin-left: 510px;
+}tr th{
+    padding-right: 102px;
+}#color5{
+    background-color: red;
+}#color3{
+    background-color: rgb(73, 73, 252);
+}#color4{
+    background-color: green;
+}
