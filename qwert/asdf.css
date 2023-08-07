@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+.Container img{
+    position: relative;
+
+}
+.Logical img{
+    position: absolute;
+}
+.Integer img{
+    animation: img  5s linear  infinite ;
+    position:absolute;
+    left: 186px;
+    top: 450px;
+}
+.Technical img{
+    
+    animation: img  5s linear  infinite ;
+    position: absolute;
+    left: 510px;
+    top: 450px;
+
+}
+@keyframes img {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.road-1 img{
+    animation: road  5s linear  infinite ;
+    width: 55%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    top: 340px;
+}
+@keyframes road {
+    100%{
+        transform: translate(200px);
+    }
+}
